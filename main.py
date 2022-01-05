@@ -18,6 +18,9 @@ def move_backward():
 
 def clear_screen():
     tim.clear()
+    tim.penup()
+    tim.home()
+    tim.pendown()
 
 
 
